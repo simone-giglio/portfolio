@@ -1,0 +1,40 @@
+
+
+
+$font-stack: "Poppins, sans-serif";
+
+$background-lg: #5887df;
+$primary-color: #5A1AC7;
+$secondary-color: #830eb1;
+$tertiary-color: #E66D13;
+
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+
+
+
+@import "../css/card-portfolio.css";
+
+@import "../css/aboutme.css";
+
+@import "../css/body.css";
+
+@import "../css/hr.css";
+
+@import "../css/card.css";
+
+@import "../css/navbar.scss";
+
+@import "../scss/grid.scss";
+
+@import "../scss/breakpoint.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700');
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

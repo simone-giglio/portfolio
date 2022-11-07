@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start2Impact</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/stle.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/card-portfolio.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head> 
+
+<body class="body">
+
+    <header>    
+
+        <nav class="navbar navbar-expand-md fixed-top shadow-lg bg-body">
+
+          <a 
+          href="#" 
+          class="navbar-brand mx-4" 
+          style="font-weight: 700; color: #5A1AC7;">My Website</a>
+          <button 
+            class="navbar-toggler mx-4" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#toggleMobileMenu" 
+            aria-controls="toggleMobileMenu" 
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse text-center my-2" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto mx-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-contacts">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-about">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    
+    </header>
+
+      
+
+    <main>
+      <section class="section-hero my-5" id="hero">
+        <div class="container">
+          <div class="row logo-row">
+            <svg class="logo animate__animated animate__backInLeft" width="814" height="106" viewBox="0 0 814 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="path-1-outside-1_7_8" maskUnits="userSpaceOnUse" x="0.200012" y="0.944" width="814" height="105" fill="black">
+              <rect fill="white" x="0.200012" y="0.944" width="814" height="105"/>
+              <path d="M135.584 9.144L112.16 99H85.664L71.328 39.864L56.48 99H29.984L7.20001 9.144H30.624L43.552 74.552L59.552 9.144H83.616L98.976 74.552L112.032 9.144H135.584Z"/>
+              <path d="M185.089 26.68V44.856H214.401V61.752H185.089V81.464H218.241V99H163.201V9.144H218.241V26.68H185.089Z"/>
+              <path d="M270.979 82.104H299.651V99H249.091V9.144H270.979V82.104Z"/>
+              <path d="M323.019 53.944C323.019 45.0693 324.939 37.176 328.779 30.264C332.619 23.2667 337.952 17.848 344.779 14.008C351.691 10.0827 359.499 8.12 368.203 8.12C378.87 8.12 388 10.936 395.595 16.568C403.19 22.2 408.267 29.88 410.827 39.608H386.763C384.971 35.8533 382.411 32.9947 379.083 31.032C375.84 29.0693 372.128 28.088 367.947 28.088C361.206 28.088 355.744 30.4347 351.563 35.128C347.382 39.8213 345.291 46.0933 345.291 53.944C345.291 61.7947 347.382 68.0667 351.563 72.76C355.744 77.4533 361.206 79.8 367.947 79.8C372.128 79.8 375.84 78.8187 379.083 76.856C382.411 74.8933 384.971 72.0347 386.763 68.28H410.827C408.267 78.008 403.19 85.688 395.595 91.32C388 96.8667 378.87 99.64 368.203 99.64C359.499 99.64 351.691 97.72 344.779 93.88C337.952 89.9547 332.619 84.536 328.779 77.624C324.939 70.712 323.019 62.8187 323.019 53.944Z"/>
+              <path d="M483.367 99.896C474.919 99.896 467.154 97.9333 460.071 94.008C453.074 90.0827 447.484 84.6213 443.303 77.624C439.207 70.5413 437.159 62.6053 437.159 53.816C437.159 45.0267 439.207 37.1333 443.303 30.136C447.484 23.1387 453.074 17.6773 460.071 13.752C467.154 9.82667 474.919 7.86401 483.367 7.86401C491.815 7.86401 499.538 9.82667 506.535 13.752C513.618 17.6773 519.164 23.1387 523.175 30.136C527.271 37.1333 529.319 45.0267 529.319 53.816C529.319 62.6053 527.271 70.5413 523.175 77.624C519.079 84.6213 513.532 90.0827 506.535 94.008C499.538 97.9333 491.815 99.896 483.367 99.896ZM483.367 79.928C490.535 79.928 496.252 77.5387 500.519 72.76C504.871 67.9813 507.047 61.6667 507.047 53.816C507.047 45.88 504.871 39.5653 500.519 34.872C496.252 30.0933 490.535 27.704 483.367 27.704C476.114 27.704 470.311 30.0507 465.959 34.744C461.692 39.4373 459.559 45.7947 459.559 53.816C459.559 61.752 461.692 68.1093 465.959 72.888C470.311 77.5813 476.114 79.928 483.367 79.928Z"/>
+              <path d="M659.896 9.144V99H638.008V45.112L617.912 99H600.248L580.024 44.984V99H558.136V9.144H583.992L609.208 71.352L634.168 9.144H659.896Z"/>
+              <path d="M714.164 26.68V44.856H743.476V61.752H714.164V81.464H747.316V99H692.276V9.144H747.316V26.68H714.164Z"/>
+              <path d="M806.966 5.944L804.406 67.256H785.846L783.286 5.944H806.966ZM795.446 100.024C791.606 100.024 788.449 98.9147 785.974 96.696C783.585 94.392 782.39 91.576 782.39 88.248C782.39 84.8347 783.585 81.976 785.974 79.672C788.449 77.368 791.606 76.216 795.446 76.216C799.201 76.216 802.273 77.368 804.662 79.672C807.137 81.976 808.374 84.8347 808.374 88.248C808.374 91.576 807.137 94.392 804.662 96.696C802.273 98.9147 799.201 100.024 795.446 100.024Z"/>
+              </mask>
+              <path d="M135.584 9.144L112.16 99H85.664L71.328 39.864L56.48 99H29.984L7.20001 9.144H30.624L43.552 74.552L59.552 9.144H83.616L98.976 74.552L112.032 9.144H135.584Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M185.089 26.68V44.856H214.401V61.752H185.089V81.464H218.241V99H163.201V9.144H218.241V26.68H185.089Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M270.979 82.104H299.651V99H249.091V9.144H270.979V82.104Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M323.019 53.944C323.019 45.0693 324.939 37.176 328.779 30.264C332.619 23.2667 337.952 17.848 344.779 14.008C351.691 10.0827 359.499 8.12 368.203 8.12C378.87 8.12 388 10.936 395.595 16.568C403.19 22.2 408.267 29.88 410.827 39.608H386.763C384.971 35.8533 382.411 32.9947 379.083 31.032C375.84 29.0693 372.128 28.088 367.947 28.088C361.206 28.088 355.744 30.4347 351.563 35.128C347.382 39.8213 345.291 46.0933 345.291 53.944C345.291 61.7947 347.382 68.0667 351.563 72.76C355.744 77.4533 361.206 79.8 367.947 79.8C372.128 79.8 375.84 78.8187 379.083 76.856C382.411 74.8933 384.971 72.0347 386.763 68.28H410.827C408.267 78.008 403.19 85.688 395.595 91.32C388 96.8667 378.87 99.64 368.203 99.64C359.499 99.64 351.691 97.72 344.779 93.88C337.952 89.9547 332.619 84.536 328.779 77.624C324.939 70.712 323.019 62.8187 323.019 53.944Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M483.367 99.896C474.919 99.896 467.154 97.9333 460.071 94.008C453.074 90.0827 447.484 84.6213 443.303 77.624C439.207 70.5413 437.159 62.6053 437.159 53.816C437.159 45.0267 439.207 37.1333 443.303 30.136C447.484 23.1387 453.074 17.6773 460.071 13.752C467.154 9.82667 474.919 7.86401 483.367 7.86401C491.815 7.86401 499.538 9.82667 506.535 13.752C513.618 17.6773 519.164 23.1387 523.175 30.136C527.271 37.1333 529.319 45.0267 529.319 53.816C529.319 62.6053 527.271 70.5413 523.175 77.624C519.079 84.6213 513.532 90.0827 506.535 94.008C499.538 97.9333 491.815 99.896 483.367 99.896ZM483.367 79.928C490.535 79.928 496.252 77.5387 500.519 72.76C504.871 67.9813 507.047 61.6667 507.047 53.816C507.047 45.88 504.871 39.5653 500.519 34.872C496.252 30.0933 490.535 27.704 483.367 27.704C476.114 27.704 470.311 30.0507 465.959 34.744C461.692 39.4373 459.559 45.7947 459.559 53.816C459.559 61.752 461.692 68.1093 465.959 72.888C470.311 77.5813 476.114 79.928 483.367 79.928Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M659.896 9.144V99H638.008V45.112L617.912 99H600.248L580.024 44.984V99H558.136V9.144H583.992L609.208 71.352L634.168 9.144H659.896Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M714.164 26.68V44.856H743.476V61.752H714.164V81.464H747.316V99H692.276V9.144H747.316V26.68H714.164Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              <path d="M806.966 5.944L804.406 67.256H785.846L783.286 5.944H806.966ZM795.446 100.024C791.606 100.024 788.449 98.9147 785.974 96.696C783.585 94.392 782.39 91.576 782.39 88.248C782.39 84.8347 783.585 81.976 785.974 79.672C788.449 77.368 791.606 76.216 795.446 76.216C799.201 76.216 802.273 77.368 804.662 79.672C807.137 81.976 808.374 84.8347 808.374 88.248C808.374 91.576 807.137 94.392 804.662 96.696C802.273 98.9147 799.201 100.024 795.446 100.024Z" stroke="white" stroke-width="10" mask="url(#path-1-outside-1_7_8)"/>
+              </svg>
+          </div>
+         
+        </div>
+      </section>
+
+      <section class="section-about" id="section-about">
+        <hr class="barra-orizzontale my-5 mx-auto">
+          
+        <div class="container my-5">
+          <div class="row my-5">
+            <div class="col">
+                <div class="card card-about-me my-3 animate__animated animate__backInRight py-3">
+                    <div class="card-body">
+                      <div class="container ms-3" id="container-img">
+                        <img src="/images/247104323_10225631579366387_2878366537596673323_n (1).jpg" alt="profilo" 
+                      class="img img-fluid img-thumbnail rounded float-end mx-4"
+                      style="width: 200px;">
+                      </div>
+                      
+                        <h3 class="card-text mx-3 my-2">About Me</h3>
+                        <br>
+                        <p class="mx-3"> Hello there! I'm Simone Giglio, from Rome, Italy. I'm a self-taught UX/UI Designer. Before of that, I was in the Photography industry for about 6 plus years, then I decided to try be someone else and find my real self in Tech and Design. I'm genuinely passionate about Graphics and Web Dev.</p>
+                        <p class="mx-3"><span class="text-muted">P.S. This Webiste is build using HTML, CSS, Sass & Bootstrap.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </section>
+      
+      <section class="section-portfolio mt-5" id="section-portfolio">
+          <hr class="barra-orizzontale my-5 mx-auto">
+    
+        <div class="container">
+          <h2 class="text-center animate__animated animate__fadeInDown mb-5 text-white">See My Projects</h2>
+          <div class="row gap-3">
+            <div class="col">
+              <div class="card card-portfolio animate__animated animate__fadeInDown mx-auto" style="width: 18rem;">
+              <img src="/images/pencil2.jpg" 
+              class="card-img-top" 
+              alt="graphic">
+              <div class="card-body">
+                <h5 class="card-title">Graphics</h5>
+                <p class="card-text">See graphic projects such as brand identity, logos etc...</p>
+                <a target="_blank" href="https://www.behance.net/simonegiglio2" class="btn btn-outline-dark">Go See It</a>
+              </div>
+            </div>
+          </div>
+            <div class="col">
+              <div class="card card-portfolio animate__animated animate__fadeInDown mx-auto" style="width: 18rem;">
+              <img src="/images/ux hope.png" 
+              class="card-img-top img-fluid" 
+              alt="graphic">
+              <div class="card-body">
+                <h5 class="card-title">UX/UI Design</h5>
+                <p class="card-text">See Design projects, from UX Research to Polish UI</p>
+                <a target="_blank" href="https://www.behance.net/simonegiglio2" class="btn btn-outline-dark">Go See It</a>
+              </div>
+            </div></div>
+            <div class="col">
+              <div class="card card-portfolio animate__animated animate__fadeInDown mx-auto" style="width: 18rem;">
+              <img src="/images/4191.jpg" 
+              class="card-img-top"
+              alt="graphic">
+              <div class="card-body">
+                <h5 class="card-title">Photography</h5>
+                <p class="card-text">My first love, it teaches me how to work freelance.</p>
+                <a target="_blank" href="https://simonegiglio.pb.photography/macroothers" class="btn btn-outline-dark">Go See It</a>
+              </div>
+            </div></div> 
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contacts mb-5" id="section-contacts">
+        <hr class="barra-orizzontale my-5 mx-auto">
+
+
+        <div class="container col-md-6">
+          <h2 class="text-center mb-4 text-white">Get in Touch</h2>
+          <div class="row">
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+              <input type="email" class="form-control w-70" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlTextarea1" class="form-label text-white">Send Me a Message</label>
+              <textarea class="form-control w-70" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <button 
+            type="button"
+            href="mailto:simo.giglio7@gmail.com?subject=Feedback&body=Message" 
+          class="btn btn-outline-light"
+          style="width: 100px;">
+          <span style="font-size: bold;">Send</span></button>
+          </div>
+          
+        </div>
+
+      </section>
+    </main>
+
+
+   
+<footer class=" text-center text-white" style="background-color:#292929;">
+  
+  <div class="container p-4">
+
+    
+    <section class="mb-4 pt-2">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/simone.giglio3/" role="button"><i class="bi bi-facebook" style="font-size: 2rem;"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/simo7edit/?hl=it" role="button"><i class="bi bi-instagram" style="font-size: 2rem;"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/simonegiglio7/?originalSubdomain=it" role="button"><i class="bi bi-linkedin" style="font-size: 2rem;"></i></a>
+      
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/simone-giglio" role="button"><i class="bi bi-github" style="font-size: 2rem;"></i></a>
+    </section>
+
+
+
+    
+    <section class="mb-4 mx-4">
+      <p>
+        It was quite an experience building this webiste, beacause is my first one!
+        Let's stay in touch via socials or mail ( simo.giglio7@gmail.com ), I'm eager to know, learn from others and hope I can give back something usefull.
+      </p>
+    </section>
+
+
+  </div>
+
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <span class="text-muted">Hope you enjoyed the visit, see you soon!</span>
+  </div>
+
+</footer>
+
+    
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
